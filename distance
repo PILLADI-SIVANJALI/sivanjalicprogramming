@@ -1,0 +1,10 @@
+#include<stdio.h>
+main()
+{
+	float u,t,a,d;
+	printf("enter the intial velocity, timeand accleration");
+	scanf("%f%f%f",&u,&t,&a);
+	d=u*t+0.5*a*t*t;
+	printf("the distance is %0.2f\n",d);
+	
+}
