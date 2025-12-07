@@ -1,0 +1,14 @@
+#include<stdio.h>
+main()
+{
+	float C, F, NEWF, NEWC;
+	printf("enter temperature in celcius");
+	scanf("%f",&C);
+	NEWF=C*1.8+32;
+	printf("the temperature in farenheit is %0.2f\n",NEWF);
+	printf("enter the temperature in farenheit");
+	scanf("%f",&F);
+	NEWC=(F-32)/1.8;
+	printf("the temperature in celsius is %0.2f\n",NEWC);
+	
+}
