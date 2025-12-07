@@ -1,0 +1,8 @@
+#include<stdio.h>
+main(){
+	int b, h, area;
+	printf("enter b,h");
+	scanf("%d%d",&b,&h);
+	area=0.5*b*h;
+	printf("the area is %d\n",area);
+}
