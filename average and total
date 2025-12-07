@@ -1,0 +1,11 @@
+#include<stdio.h>
+main(){
+	int a,b,c,d,e,total;
+	float average;
+	printf("enter a, b, c, d, e");
+	scanf("%d%d%d%d%d",&a,&b,&c,&d,&e);
+	total=a+b+c+d+e;
+    printf("the total is %d",total);
+    average=(float)total/5;//type casting
+    printf("the average is %f",average);
+	}
